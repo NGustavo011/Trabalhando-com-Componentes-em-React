@@ -16,7 +16,7 @@ const Card = () =>{
     return(
         <div className="card">
             <div className="card-header">
-                Quote
+                CONTADOR
             </div>
             <div className="card-body">
                 <Button className="btn btn-success" onClick={incrementValue}>
@@ -28,7 +28,7 @@ const Card = () =>{
                 <blockquote className="blockquote mb-0">
                     <p>Contador: {value}</p>
                     <footer className="blockquote-footer">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
+                        Apenas um teste com contador <cite title="Source Title">GUSTAVO NOGUEIRA</cite>
                     </footer>
                 </blockquote>
             </div>

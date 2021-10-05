@@ -1,7 +1,7 @@
-const Item = (number) =>{
+const Item = ({number, children}) =>{
     return (
         <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-            Item {number}
+            Item {number} - {children}
         </a>
     )
 }

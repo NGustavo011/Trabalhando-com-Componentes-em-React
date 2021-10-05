@@ -1,22 +1,24 @@
+import Item from './components/item/index'
+
 const App = () =>{
   return(
     <>
       <h1>Minha primeira aplicação com React</h1>
       <ul>
         <li>
-          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-            Item 1
-          </a>
+          <Item number="1">
+            Primeiro item
+          </Item>
         </li>
         <li>
-          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-            Item 2
-          </a>
+          <Item number="2">
+            Segundo item
+          </Item>
         </li>
         <li>
-          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-            Item 3
-          </a>
+          <Item number="3">
+            Terceiro item
+          </Item>
         </li>
       </ul>
     </>    

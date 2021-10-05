@@ -1,4 +1,5 @@
-import Item from './components/item/index'
+import Item from './components/Item/index'
+import Card from './components/Card/index'
 
 const App = () =>{
   return(
@@ -21,6 +22,7 @@ const App = () =>{
           </Item>
         </li>
       </ul>
+      <Card />
     </>    
   )
 }

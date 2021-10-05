@@ -1,10 +1,6 @@
-const Button = ({ type, changeValue }) =>{
+const Button = ({ children, className, onClick }) =>{
     return(
-        type==="sucess" ?(
-            <button type="button" className="btn btn-success" onClick = {changeValue}>Adicionar</button>
-        ):(
-            <button type="button" className="btn btn-danger" onClick = {changeValue}>Remover</button>
-        )
+        <button type="button" className={className} onClick = {onClick}>{children}</button>
     )
 }
 

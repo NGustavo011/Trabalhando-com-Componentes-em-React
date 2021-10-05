@@ -19,8 +19,12 @@ const Card = () =>{
                 Quote
             </div>
             <div className="card-body">
-                <Button type="sucess" changeValue={incrementValue}/>
-                <Button type="danger" changeValue={decrementValue}/>
+                <Button className="btn btn-success" onClick={incrementValue}>
+                    Adicionar
+                </Button>
+                <Button className="btn btn-danger" onClick={decrementValue}>
+                    Remover
+                </Button>
                 <blockquote className="blockquote mb-0">
                     <p>Contador: {value}</p>
                     <footer className="blockquote-footer">
